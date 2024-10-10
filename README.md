@@ -13,12 +13,6 @@ Clone the project
  git clone https://github.com/matiassf1/File-Management.git
 ```
 
-Go to the project directory
-
-```bash
-  cd core-api
-```
-
 Install dependencies
 
 ```bash
