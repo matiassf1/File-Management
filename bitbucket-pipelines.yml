@@ -1,0 +1,22 @@
+image: node:20
+
+pipelines:
+  pull-requests:
+    "**":
+      - step:
+          name: Install dependencies
+          caches:
+            - node-modules
+          script:
+            - npm install
+
+      - step:
+          name: Run tests
+          caches:
+            - node-modules
+          script:
+            - npm run test
+
+definitions:
+  caches:
+    node-modules: ./node_modules

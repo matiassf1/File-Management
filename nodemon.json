@@ -1,0 +1,6 @@
+{
+  "execMap": {
+    "verbose": false,
+    "ts": "node ./loader.js"
+  }
+}
