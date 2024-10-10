@@ -10,7 +10,7 @@ An integration of AWS Lambda, Api Gateway, S3 and DynamoDB to handle a model wit
 Clone the project
 
 ```bash
-  git clone https://github.com/Poulz/core-api.git
+ git clone https://github.com/matiassf1/File-Management.git
 ```
 
 Go to the project directory
