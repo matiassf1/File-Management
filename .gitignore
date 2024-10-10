@@ -1,0 +1,14 @@
+node_modules
+dist
+
+## Code coverage folder
+coverage
+
+# TRANSPILED OUTPUT
+/dist/*
+/lambda-dependencies-temp/*
+/lambda-handler-temp/*
+
+# LOCALSTACK
+/volume/*
+.local.env
